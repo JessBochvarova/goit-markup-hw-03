@@ -24,6 +24,9 @@ body {
 /*      header       */
 
 .list {
+  display: flex;
+  align-items: center;
+
   list-style: none;
 }
 
@@ -254,6 +257,10 @@ ol {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   margin-left: auto;
@@ -267,5 +274,6 @@ ol {
   justify-content: space-between;
 }
 
-.header-list {
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
