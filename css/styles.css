@@ -44,8 +44,8 @@ body {
   color: var(--hero-background-color);
 }
 
-.logo-studio-index{
-  color: var(--primary-light-color)
+.logo-studio-index {
+  color: var(--primary-light-color);
 }
 
 /*          menu     -portfolio and main page-        */
@@ -59,16 +59,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--pressed-state-color);
 }
 
-
 /* email & tel */
-
-
 
 .adress-link {
   color: var(--primary-text-color);
@@ -83,8 +79,6 @@ body {
 .adress-link:focus {
   color: var(--pressed-state-color);
 }
-
-
 
 .link {
   text-decoration: none;
@@ -240,4 +234,38 @@ body {
 }
 .team-list {
   background-color: #ffffff;
+}
+
+/* FLEX BOX */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list {
 }
